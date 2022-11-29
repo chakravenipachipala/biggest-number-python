@@ -1,0 +1,13 @@
+#write a program to print biggest of four numbers
+a = int(input("enter a number:"))
+b = int(input('enter a number:'))
+c = int(input('enter a number:'))
+d = int(input('enter a number:'))
+if a>b and a>c and a>d:
+    print("a is big")
+elif b>c and b>d:
+    print('b is big')
+elif c>d:
+    print('c is big ')
+else:
+    print('d is big')
